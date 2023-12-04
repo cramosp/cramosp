@@ -24,7 +24,7 @@ const cristinaRamos = {
     tools: ["Git", "GitHub", "VS Code", "npm", "Webpack"],
   },
   
-  currentlyLearning: "learning TypeScript",
+  currentlyLearning: "TypeScript",
   
   introduceYourself: () => {
     console.log(`
@@ -41,13 +41,13 @@ console.log(`
 
   Frontend: ${cristinaRamos.skills.frontend.join(', ')}
   Backend: ${cristinaRamos.skills.backend.join(', ')}
-  Bases de Datos: ${cristinaRamos.skills.databases.join(', ')}
+  Databases: ${cristinaRamos.skills.databases.join(', ')}
   Frameworks: ${cristinaRamos.skills.frameworks.join(', ')}
-  Herramientas: ${cristinaRamos.skills.tools.join(', ')}
+  Tools: ${cristinaRamos.skills.tools.join(', ')}
 `);
 
 console.log(`
-  I have a passion for gaining new insights, rigth know I am ${cristinaRamos.currentlyLearning}.
+  I have a passion for gaining new insights, rigth know I am learning ${cristinaRamos.currentlyLearning}.
 `);
 
 ```
